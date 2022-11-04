@@ -1,0 +1,25 @@
+#firstRect {
+  background-color: red;
+  width: 100%;
+  height: 150px;
+}
+#secondRect {
+  background-color: green;
+  width: 50%;
+  height: 75px;
+}
+#thirdRect {
+  background-color: blue;
+  width: 25%;
+  height: 35px;
+}
+
+.hidden {
+  display: none;
+}
+
+.square {
+  background: salmon;
+  width: 100px;
+  height: 100px;
+}
