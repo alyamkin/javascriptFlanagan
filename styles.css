@@ -1,3 +1,7 @@
+* {
+  /* box-sizing: border-box; */
+}
+
 #firstRect {
   background-color: red;
   width: 100%;
@@ -22,4 +26,43 @@
   background: salmon;
   width: 100px;
   height: 100px;
+}
+
+.parent {
+  background: greenyellow;
+}
+
+.first-element {
+  background: yellow;
+  height: 40px;
+  position: relative;
+}
+
+.second-element {
+  background: rebeccapurple;
+  height: 40px;
+}
+
+.third-element {
+  background: blue;
+  height: 40px;
+}
+
+#testCoords {
+  height: 100px;
+  background: salmon;
+  border: 20px solid gray;
+}
+
+#elementSize {
+  width: 300px;
+  height: 200px;
+  border: 25px solid #e8c48f;
+  overflow: auto;
+  padding: 20px;
+  /* display: none; */
+}
+
+html {
+  /* border: 20px solid #000000; */
 }
